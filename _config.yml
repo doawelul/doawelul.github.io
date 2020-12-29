@@ -27,8 +27,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  doawelul
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 plugins:
+  - jekyll-include-cache 
   - jekyll-feed
 
 # Exclude from processing.
