@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+body {
+	text-align: center;
+	background-color: lightgrey;
+}
+
+#proj-container div {
+	border: 1px solid gray;
+	margin: 35px auto;
+	width: 500px;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: left;
+	background-color: white;
+}
+
+#proj-container p {
+	margin-bottom: 4px;
+}
+
+a {
+	color: green;
+}
+
+#proj-container a {
+	color: brown;
+}
+
+.proj-description {
+	font-family: 'Pushster', monospace;
+}
